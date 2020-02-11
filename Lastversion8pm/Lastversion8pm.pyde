@@ -52,7 +52,7 @@ def moveBall():
   stroke(0)
   
 
-  x=x+vx
+  x+=vx
   y=y+vy
   if x<0 or x>WIDTH:
     vx=-vx
